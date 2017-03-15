@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Testing Example</string>
+    <string name="result_format">Result is: %d</string>
+</resources>
