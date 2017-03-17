@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.maxdota.androidtestingexample.model.TModel;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TestModel model = new TestModel();
+        TModel model = new TModel();
         TextView contentText = (TextView) findViewById(R.id.content_text);
-        contentText.setText(getString(R.string.result_format, model.getDoubleResult(2)));
+//        contentText.setText(getString(R.string.result_format, model.getDoubleResult(2)));
     }
 }
