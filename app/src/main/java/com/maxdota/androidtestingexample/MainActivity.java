@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
         TModel model = new TModel();
         TextView contentText = (TextView) findViewById(R.id.content_text);
-//        contentText.setText(getString(R.string.result_format, model.getDoubleResult(2)));
+        contentText.setText(getString(R.string.result_format, model.getDoubleResult(2)));
     }
 }
