@@ -30,9 +30,6 @@ public class MainActivityInstrumentationTest {
 
     @Test
     public void sayHello(){
-
-
-        onView(withId(R.id.content_text))
-                .check(matches(withText("Hello World!")));
+        onView(withId(R.id.content_text)).check(matches(withText("Result is: 4")));
     }
 }
